@@ -289,8 +289,8 @@ height: auto !important;
 height: 175px;
 }
 
-#noncomiccontent {
-font: 1.3em century gothic, sans-serif;
+.noncomiccontent {
+font: 1.3em Avengers, century gothic, sans-serif;
 text-align: left;
 background-color: #FFFFFF;
 margin: 20px;
