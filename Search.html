@@ -1,0 +1,30 @@
+<div id="noncomiccontent">
+
+<h1>Search</h1>
+
+
+ <form method="post" action="/search/">
+  <div id="searchbar">
+   <input type="text" name="search" value="[v:searchterm]" class="textinput" /><input type="submit" value="Search!" class="submitinput" /><br />
+  [c:searched]
+  [c:!foundresults]
+   <b>Error:</b> Sorry, but there were no results for your search.
+  [/] 
+  [/]
+  </div>
+ </form>
+[c:searched]
+ <div class="box">
+
+
+  [c:foundresults]
+   <table class="archive" border="0px" cellpadding="5px" cellspacing="0px">
+    <tr bgcolor="#1B191E" class="archivehead"><td colspan="3">Results
+    [l:searchresults]
+     <tr class="archivecomic"><td class="comicnumber">[v:l.number].</td><td><a href="[v:l.comicurl]">[v:l.comictitle]</a></td><td class="comicposttime">[v:l.posttime]</td></tr>
+    [/]
+   </table>
+  [/]
+ </div>
+[/]
+

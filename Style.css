@@ -1,0 +1,494 @@
+body {
+font-size: 66.5%;
+background: #101010;
+
+/* I commented this out to just have a black background, rather than an image url("http://avengersrollinitiative.webcomic.ws/files/backgrounds/shield.jpg") ; top repeat-x */
+
+text-align: center;
+margin-top: 50px;
+word-wrap:break-word;
+}
+
+table{
+text-align : center;
+}
+/**********This is the code to attach the special Avengers Font*********************/
+@font-face
+{
+font-family: Avengers;
+src: url(http://avengersrollinitiative.webcomic.ws/files/avengeance_heroic_avenger.ttf);
+}
+/**********************End of the special font****************************************/
+
+img {
+ border: 0;
+}
+.comicimage {
+ min-height:1px;
+ display:inline-block;
+}
+.profile {
+width: 500px;
+min-height: 150px;
+text-align: left;
+margin-top: 10px;
+}
+
+* html .profile {
+height: 150px;
+}
+
+
+/***This affects the text like "Save My Place", names on the comment info boxes**********/
+a {
+color: #0033FF;
+text-decoration: none;
+
+}
+
+a:hover {
+color: #000000;
+}
+
+html>/**/body #wrap {
+display:table;
+width:800px;
+height:800px;
+padding:0;
+margin:0;
+margin: auto;
+}
+#wrap2 {
+display:table-row;
+padding:0;
+margin:0;
+}
+
+
+html>/**/body #content {
+display:table-cell;
+vertical-align:top;
+margin: auto;
+
+/******this is the background within the borders around the comic********/
+background: #181818; <!--url("http://comicfury.com/images/layouts/cold/bg-content.gif")--> 
+
+top repeat-x;
+border-style: solid;
+border-width:5px;
+border-color: #0066FF; 
+border-opacity:0.3;
+padding: 15px;
+ width: 700px;
+}
+
+#ietable {
+ min-height:1px;
+ height:auto !important;
+ height:1px;
+ min-width:800px;
+ margin:auto;
+}
+#iecontent {
+vertical-align:top;
+margin: auto;
+background: #ffffff url("http://comicfury.com/images/layouts/cold/bg-content.gif") top repeat-x;
+border-top: 10px #4D525E solid;
+padding: 15px;
+min-height:1px;
+height:auto !important;
+height:1px;
+}
+
+#header {
+background: url("http://avengersrollinitiative.webcomic.ws/files/ari_banner.png") top no-repeat;
+
+height: 220px;
+text-align: right;
+right: 5px;
+margin-top: 5px;
+}
+
+h4 {
+height: 200px;
+width: 600px;
+font-size: 0px;
+display: block;
+text-align: right;
+color: #ffffff;
+margin-left: 58px;
+position: absolute;
+}
+
+#navigation {
+vertical-align:top;
+width: 45px;
+text-align: right;
+display:table-cell;
+font-size:0;
+image-color: #0066FF;
+}
+* html #navigation {
+ width:49px;
+}
+* html #navigation, * html #content {
+float: left;
+}
+*+ html #navigation, *+ html #content {
+float: left;
+
+}
+
+#nav {
+min-height:1px;
+list-style-type: none;
+padding: 0px;
+padding-left: 2px;
+margin: 0px;
+background-color:#33CCFF;
+box-shadow: 6px 6px 5px #0099FF;
+}
+
+#nav li {
+display: block;
+height: 146px;
+width: 45px;
+line-height:0;
+font-size:0;
+border: 1px #33CCFF solid;
+margin-bottom: 2px;
+}
+* html #nav li {
+ width:auto;
+ display:inline-block;
+}
+*+ html #nav li {
+ width:auto;
+}
+*+ html #nav li img {
+ display:inline;
+ float:left; 
+}
+* html #nav li img {
+ float:left; /*fix for extra bottom margin bug*/
+}
+#nav li a img {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+filter: alpha(opacity=60);
+-moz-opacity: 0.6;
+-khtml-opacity: 0.6;
+opacity: 0.6;
+}
+
+#nav li a:hover img {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+filter: alpha(opacity=80);
+-moz-opacity: 0.8;
+-khtml-opacity: 0.8;
+opacity: 0.8;
+}
+
+#comic {
+text-align: center;
+}
+
+#comicinfo {
+padding-right: 100px;
+text-color: #FFFFFF;
+}
+
+
+/****************This is for the Main Title, and perhaps other things****************/
+h1 {
+font: 4em Avengers, Arial Black, sans-serif;
+font-weight: normal;
+line-height: 110%;
+color: #00CCFF;
+text-align: right;
+margin: 0px;
+padding: 0px;
+}
+
+h2 {
+font: 1.3em century gothic, georgia, sans-serif;
+font-weight: normal;
+line-height: normal;
+color: #FFFFFF;
+text-align: right;
+}
+/*****This is the title on the blog posts*/
+h5 {
+font: 2.5em Avengers;
+color: #000000;
+text-align: center;
+margin: 0px;
+padding: 0px;
+}
+
+/*This section is the bottom buttons*************************************************/
+#comicnav {
+list-stype-type: none;
+padding: 0px;
+margin: 10px;
+background-color: #181818;
+}
+
+#comicnav li {
+display: inline;
+margin-left: 10px;
+}
+
+#comicnav li img {
+border: 10px;
+}
+/************************************************************************************/
+
+
+.comments,.permalinks {
+font: 1.3em century gothic, sans-serif;
+text-align: left;
+margin: 20px;
+padding: 5px;
+
+/*Grant Baugh check here to change what the comments will look like*****************/
+
+background: #33CCFF; /*url("http://comicfury.com/images/layouts/cold/bg-comments.gif") bottom repeat-x;*/
+box-shadow: 5px 5px 5px #3399FF;/*this is the box's shadow*/
+/******border-right: 5px #3399FF solid;****removed this to just have the shadow*/
+/******border-bottom: 5px #3399FF solid;****removed this to just have the shadow*/
+min-height: 220px;
+height: auto !important;
+height: 220px;
+}
+.commentsw {
+ word-wrap:break-word;
+ overflow:auto;
+ max-width:750px;
+}
+*+ html .commentsw {
+ width:650px;
+}
+* html .commentsw {
+ width:650px;
+}
+.plcode {
+ font-family:Courier New, monospace;
+ word-wrap:break-word;
+ overflow:auto;
+ max-width:750px;
+}
+*+ html .plcode {
+ width:650px;
+}
+* html .plcode {
+ width:650px;
+}
+.permalinks {
+min-height: 75px;
+height: auto !important;
+height: 175px;
+}
+
+#noncomiccontent {
+font: 1.3em century gothic, sans-serif;
+text-align: left;
+background-color: #FFFFFF;
+margin: 20px;
+padding: 5px;
+}
+
+h3, .blogtitle {
+font: 1.0em century gothic, georgia, sans-serif;
+font-weight: normal;
+text-align: right;
+line-height: normal;
+padding: 2px;
+/*******border-bottom: 5px #eeeeee solid;***removed on feb 25 2014*********/
+}
+
+.lowh3 {
+ margin-top:2px;
+}
+
+.avatar {
+border: 1px #ffffff solid;
+/*float: left;*/
+margin: 10px;
+}
+
+.commentoptions {
+text-align: right;
+font-size: 0.8em;
+}
+
+.shadow {
+background: url("http://comicfury.com/images/layouts/cold/shadowAlpha.png") no-repeat bottom right !important;
+background: url("http://comicfury.com/images/layouts/cold/shadow.gif") no-repeat bottom right;
+margin: 10px 0 0 10px !important;
+margin: 10px 0 0 5px;
+float:left;
+}
+
+.shadow img {
+display: block;
+position: relative;
+background-color: #fff;
+border: 1px solid #a9a9a9;
+margin: -6px 6px 6px -6px;
+padding: 4px;
+}
+/*************the opacities here used to be at 50 but I changed them************/
+#comicnav li a img {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+filter: alpha(opacity=50);
+-moz-opacity: 0.75;
+-khtml-opacity: 0.75;
+opacity: 0.75;
+}
+
+#comicnav li a:hover img {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+filter: alpha(opacity=100);
+-moz-opacity: 1.0;
+-khtml-opacity: 1.0;
+opacity: 1.0;
+}
+
+.p-shadow {
+  float: right;
+  background: url("http://comicfury.com/images/layouts/cold/shadowAlpha.png") no-repeat bottom right !important;
+  background: url("http://comicfury.com/images/layouts/cold/shadow.gif") no-repeat bottom right;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+  width: 150px;
+  }
+
+.p-shadow div {
+  background: none !important;
+  background: url("http://comicfury.com/images/layouts/cold/shadow2.gif") no-repeat left top;
+  padding: 0 !important;
+  padding: 0 6px 6px 0;
+  }
+
+.p-shadow p {
+  color: #777;
+  background-color: #fff;
+  font: italic 0.9em century gothic, sans-serif;
+  border: 1px solid #a9a9a9;
+  padding: 4px;
+  margin: -6px 6px 6px -6px !important;
+  margin: 0;
+  }
+  
+#footer {
+clear: both;
+font: 1em century gothic, sans-serif;
+padding: 20px;
+color: #717171;
+text-align: center;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+filter: alpha(opacity=60);
+-moz-opacity: 0.6;
+-khtml-opacity: 0.6;
+opacity: 0.6;
+}
+
+#footer a:hover {
+color: #ffffff;
+}
+
+
+/********************************this changes the "Rate this Comic" section**********/
+.postrate {
+width: 600px;
+text-align: left;
+margin-left: 50px;
+margin-bottom: 30px;
+font: 1.2em century gothic;
+color: #0033FF;  <!--GrantFix-->
+}
+
+#saveplace {
+ padding-top:6px;
+ padding-bottom:4px;
+ font-color: #00CCFF;
+}
+
+.reply {
+ margin-left:60px;
+}
+
+#nav2 {
+ list-style:none;
+ text-align:right;
+}
+#nav2 li {
+ display:inline;
+}
+#nav2 a, #nav2 a:link, #nav2 a:visited {
+ display:inline-block;
+ margin-left:10px;
+ margin-right:10px;
+ padding:4px;
+ color:#333;
+ background:url("http://comicfury.com/images/layouts/50p.png");
+ font-size:12px;
+}
+#nav2 a:hover {
+ color:#666;
+}
+.archivehead {
+ color:#FFF;
+}
+.chaptername {
+ margin:1px;
+ font-size:18px;
+}
+.chapterdescription {
+ margin:12px;
+ font-style:italic;
+}
+.archive {
+ margin:4px auto;
+}
+.blogarchive li {
+ text-align:left;
+ font-size:120%;
+}
+#searchbar {
+ margin: 5px;
+}
+#searchbar .textinput {
+ border:0;
+ background-color:#DDDDDD;
+ color:#333333;
+ margin:0;
+ font-size:20px;
+ padding:2px;
+ height:20px;
+ vertical-align:top;
+}
+#searchbar .submitinput {
+ border:0;
+ background-color:#222222;
+ color:#FFFFFF;
+ margin:0;
+ padding:0;
+ padding-left:3px;
+ padding-right:3px;
+ font-size:14px;
+ height:24px;
+ vertical-align:top;
+}
+
+/*should be for the ad box*/
+#pw_adbox_73572_1_0{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogcontent {
+ margin-top:10px;
+ margin-bottom:10px;
+}
