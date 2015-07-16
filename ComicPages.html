@@ -12,7 +12,8 @@
 
 
 [v:comicimage]
-
+<!--Grant will need to remove the below line-->
+<img src="avengersrollinititiave52.png">
 <!-----------------This is the navigation buttons at the bottom----------------------->
 
 <ul id="comicnav">
@@ -36,7 +37,7 @@
 
 
        <!--comment:[comic dropdown:]-->
-        <select onchange="jumpTo(this.options[selectedIndex].value);" class="comicnavlink">
+        <!-- <select onchange="jumpTo(this.options[selectedIndex].value);" class="comicnavlink">
          <optgroup label="Comic QuickNavigation">
           <option value="/comics/random">Random</option>
          </optgroup>
@@ -45,7 +46,7 @@
           <option value="[v:l.comicurl]" [c:l.currentcomic]selected="selected"[/]>[v:l.comictitle]</option>
          [/]
          </optgroup>
-        </select> 
+        </select> -->
 <br>
 
 <!--this section is sharing button code------------------------------------>
@@ -81,11 +82,11 @@
 <!-----------This section is the vote box for The WEbcomic list----------->
 
         <a href="http://www.thewebcomiclist.com/"><img src="http://www.thewebcomiclist.com/myranking.php?id=24974" alt="The Webcomic List"  height = "60px" border="0" style="border:1px solid #000000" ></a>
-        
+
        </td>
 
        <td>
-         
+
 <!---This is the Ad box------------------------------------------------------------>
 <!-- Project Wonderful Ad Box Loader -->
 <script type="text/javascript">
@@ -115,7 +116,7 @@
 <!-- End Project Wonderful Ad Box Code -->
 
 <!--End of the Ad Box------------------------------------------------------------------>
-        
+
         </td>
 
   <!-----I want to add the box for Topwebcomics here, but currently the site won't work-->
@@ -185,8 +186,8 @@ Rate this comic:
 [c:l.avatar]
 
 <div class="shadow">
-<a href="[v:l.profilelink]" title="[v:l.authorname]"><img src="[v:l.avatar]" class="avatar" alt="view [v:l.authorname]'s profile" /></a> 
-</div> 
+<a href="[v:l.profilelink]" title="[v:l.authorname]"><img src="[v:l.avatar]" class="avatar" alt="view [v:l.authorname]'s profile" /></a>
+</div>
 [/]
 <!----------------------------End of Commenter's avatar-------------------------->
 
@@ -199,11 +200,11 @@ Rate this comic:
 
    <p class="[v:l.editdeleteclass]">
    <span class="[v:l.editclass]">[<a href="[v:l.editlink]" onclick="var cl = window.open('[v:l.editlink]', 'cw', 'height=400, width=500'); cl.focus(); return false;">edit</a>]</span>
-   
-   
+
+
    <span class="[v:l.editclass]">[<a href="[v:l.deletelink]" onclick="var cl = window.open('[v:l.deletelink]', 'cw', 'height=400, width=500'); cl.focus(); return false;">delete</a>]</span>
    </p>
-   
+
 </div>
 </div>
 <!-------------------This is the end of the comment info box---------------------->
@@ -226,7 +227,7 @@ Rate this comic:
 
     [c:showpermalinks]
    <!---  <h1>Use these links to connect this comic to forums or blogs!</h1>----took out to make it all go together closer -->
-<div class="permalinks">  
+<div class="permalinks">
 <h3 class="lowh3">Copy this comic into forums using this code: </h3>
        <div class="plcode">&lt;a href="[v:permalink]"&gt;&lt;img src="[v:comicimageurl]" alt="[v:webcomicname] - [v:comictitle]" border="0" /&gt;
        &lt;br /&gt;<br />&lt;a href="[v:permalink]"&gt;[v:comictitle]&lt;/a&gt;</div>
@@ -262,7 +263,7 @@ Rate this comic:
 [c:l.avatar]
 <div class="shadow">
 <a href="[v:l.profilelink]" title="[v:l.authorname]"><img src="[v:l.avatar]" class="avatar" alt="view [v:l.authorname]'s profile" /></a>
-</div> 
+</div>
 <!----Avatar section-------------------------------->
 
 [/]<!------------------&&&&&&&%%%%%%%this wasn't always here------>
@@ -274,14 +275,14 @@ Rate this comic:
 
    <p>
    <span class="[v:l.editclass]">[<a href="[v:l.editlink]" onclick="var cl = window.open('[v:l.editlink]', 'cw', 'height=400, width=500'); cl.focus(); return false;">edit</a>]</span>
-   
-   
+
+
    <span class="[v:l.deleteclass]">[<a href="[v:l.deletelink]" onclick="var cl = window.open('[v:l.deletelink]', 'cw', 'height=400, width=500'); cl.focus(); return false;">delete</a>]</span>
    [<a href="[v:l.replylink]" onclick="var cl = window.open('[v:l.replylink]', 'cw', 'height=400, width=500'); cl.focus(); return false;">reply</a>]</p>
-   
+
 </div>
 </div>
-                      
+
 <!-------Wrong Guess number three as to this being what governs the viewer comments avatar,   c:1.avatar used to go right here--->
 
 
