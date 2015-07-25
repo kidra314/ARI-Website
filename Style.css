@@ -39,7 +39,7 @@ height: 150px;
 
 /***This affects the text like "Save My Place", names on the comment info boxes**********/
 a {
-color: #0033FF;
+color: #00CCFF;;
 text-decoration: none;
 
 }
@@ -229,19 +229,20 @@ padding: 0px;
 }
 
 /*This section is the bottom buttons*************************************************/
-#comicnav {
+.comicnav {
 list-stype-type: none;
 padding: 0px;
 margin: 10px;
+font-size: 2em;
 /*background-color: #181818;*/
 }
 
-#comicnav li {
+.comicnav li {
 display: inline;
 margin-left: 10px;
 }
 
-#comicnav li img {
+.comicnav li a {
 border: 10px;
 }
 /************************************************************************************/
@@ -341,7 +342,7 @@ margin: -6px 6px 6px -6px;
 padding: 4px;
 }
 /*************the opacities here used to be at 50 but I changed them************/
-#comicnav li a img {
+.comicnav li a{
 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
 filter: alpha(opacity=50);
 -moz-opacity: 0.75;
@@ -349,7 +350,7 @@ filter: alpha(opacity=50);
 opacity: 0.75;
 }
 
-#comicnav li a:hover img {
+.comicnav li a:hover {
 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 filter: alpha(opacity=100);
 -moz-opacity: 1.0;
