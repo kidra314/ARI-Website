@@ -8,7 +8,6 @@ text-align: center;
 margin-top: 50px;
 word-wrap:break-word;
 }
-
 table{
 text-align : center;
 }
@@ -71,12 +70,12 @@ vertical-align:top;
 margin: auto;
 
 /******this is the background within the borders around the comic********/
-background: #181818; <!--url("http://comicfury.com/images/layouts/cold/bg-content.gif")--> 
+background: #181818; <!--url("http://comicfury.com/images/layouts/cold/bg-content.gif")-->
 
 top repeat-x;
 border-style: solid;
 border-width:5px;
-border-color: #0066FF; 
+border-color: #0066FF;
 border-opacity:0.3;
 padding: 15px;
  width: 700px;
@@ -167,7 +166,7 @@ margin-bottom: 2px;
 }
 *+ html #nav li img {
  display:inline;
- float:left; 
+ float:left;
 }
 * html #nav li img {
  float:left; /*fix for extra bottom margin bug*/
@@ -379,7 +378,7 @@ opacity: 1.0;
   margin: -6px 6px 6px -6px !important;
   margin: 0;
   }
-  
+
 #footer {
 clear: both;
 font: 1em century gothic, sans-serif;
