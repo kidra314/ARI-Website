@@ -12,10 +12,9 @@ table{
 text-align : center;
 }
 /**********This is the code to attach the special Avengers Font*********************/
-@font-face
-{
+@font-face{
 font-family: Avengers;
-src: url(http://avengersrollinitiative.webcomic.ws/files/avengeance_heroic_avenger.ttf);
+src: url(files/avengeance_heroic_avenger.ttf);
 }
 /**********************End of the special font****************************************/
 
