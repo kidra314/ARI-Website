@@ -70,7 +70,8 @@ vertical-align:top;
 margin: auto;
 
 /******this is the background within the borders around the comic********/
-background: #181818; <!--url("http://comicfury.com/images/layouts/cold/bg-content.gif")-->
+background: #181818;
+/*url("http://comicfury.com/images/layouts/cold/bg-content.gif)*/
 
 top repeat-x;
 /*Used to have a border but we got rid of it in the July 2015 redesign*/
@@ -201,7 +202,8 @@ text-color: #FFFFFF;
 
 /****************This is for the Main Title, and perhaps other things****************/
 h1 {
-font: 4em Avengers, Arial Black, sans-serif;
+font-family: "Avengers", Arial Black, sans-serif;
+font-size: 4em;
 font-weight: normal;
 line-height: 110%;
 color: #00CCFF;
@@ -209,7 +211,7 @@ text-align: right;
 margin: 0px;
 padding: 0px;
 }
-
+/*The H2 tends to be where it lists the post time and what days it updates*/
 h2 {
 font: 1.3em century gothic, georgia, sans-serif;
 font-weight: normal;
@@ -219,8 +221,9 @@ text-align: right;
 }
 /*****This is the title on the blog posts*/
 h5 {
-font: 2.5em Avengers;
-color: #000000;
+font-size: 2.5em;
+font-family: Avengers, Arial Black, sans-serif;
+color: #00CCFF;
 text-align: center;
 margin: 0px;
 padding: 0px;
@@ -231,7 +234,7 @@ padding: 0px;
 list-stype-type: none;
 padding: 0px;
 margin: 10px;
-background-color: #181818;
+/*background-color: #181818;*/
 }
 
 #comicnav li {
