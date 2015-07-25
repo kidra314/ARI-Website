@@ -1,6 +1,6 @@
 body {
 font-size: 66.5%;
-background: #101010;
+background: #181818;
 
 /* I commented this out to just have a black background, rather than an image url("http://avengersrollinitiative.webcomic.ws/files/backgrounds/shield.jpg") ; top repeat-x */
 
@@ -73,10 +73,11 @@ margin: auto;
 background: #181818; <!--url("http://comicfury.com/images/layouts/cold/bg-content.gif")-->
 
 top repeat-x;
-border-style: solid;
+/*Used to have a border but we got rid of it in the July 2015 redesign*/
+/*border-style: solid;
 border-width:5px;
 border-color: #0066FF;
-border-opacity:0.3;
+border-opacity:0.3;*/
 padding: 15px;
  width: 700px;
 }
@@ -189,6 +190,7 @@ opacity: 0.8;
 
 #comic {
 text-align: center;
+background-color: #181818;
 }
 
 #comicinfo {
