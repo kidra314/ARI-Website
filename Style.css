@@ -274,25 +274,28 @@ opacity: 1.0;
 
 
 .comments,.permalinks {
-font: 1.3em century gothic, sans-serif;
+font-size: 1.3em;
+border: 2px solid #33CCFF;
+font-family: century gothic, sans-serif;
 text-align: left;
 margin: 20px;
 padding: 5px;
-
+color: white;
 /*Grant Baugh check here to change what the comments will look like*****************/
-
-background: #33CCFF; /*url("http://comicfury.com/images/layouts/cold/bg-comments.gif") bottom repeat-x;*/
-box-shadow: 5px 5px 5px #3399FF;/*this is the box's shadow*/
+/*background: #33CCFF; /*url("http://comicfury.com/images/layouts/cold/bg-comments.gif") bottom repeat-x;*/*/
+/*box-shadow: 5px 5px 5px #3399FF;/*this is the box's shadow*/
 /******border-right: 5px #3399FF solid;****removed this to just have the shadow*/
 /******border-bottom: 5px #3399FF solid;****removed this to just have the shadow*/
 min-height: 220px;
 height: auto !important;
 height: 220px;
 }
+
 .commentsw {
- word-wrap:break-word;
+ /*word-wrap:break-word;*/
  overflow:auto;
  max-width:750px;
+float: left;
 }
 *+ html .commentsw {
  width:650px;
@@ -340,7 +343,7 @@ padding: 2px;
 }
 
 .avatar {
-border: 1px #ffffff solid;
+/*border: 1px #ffffff solid;*/
 /*float: left;*/
 margin: 10px;
 }
@@ -351,8 +354,8 @@ font-size: 0.8em;
 }
 
 .shadow {
-background: url("http://comicfury.com/images/layouts/cold/shadowAlpha.png") no-repeat bottom right !important;
-background: url("http://comicfury.com/images/layouts/cold/shadow.gif") no-repeat bottom right;
+/*background: url("http://comicfury.com/images/layouts/cold/shadowAlpha.png") no-repeat bottom right !important;*/
+/*background: url("http://comicfury.com/images/layouts/cold/shadow.gif") no-repeat bottom right;*/
 margin: 10px 0 0 10px !important;
 margin: 10px 0 0 5px;
 float:left;
@@ -361,34 +364,34 @@ float:left;
 .shadow img {
 display: block;
 position: relative;
-background-color: #fff;
-border: 1px solid #a9a9a9;
+/*background-color: #fff;*/
+/*border: 1px solid #a9a9a9;*/
 margin: -6px 6px 6px -6px;
 padding: 4px;
 }
 
 
 .p-shadow {
-  float: right;
+  /*float: right;
   background: url("http://comicfury.com/images/layouts/cold/shadowAlpha.png") no-repeat bottom right !important;
-  background: url("http://comicfury.com/images/layouts/cold/shadow.gif") no-repeat bottom right;
+  background: url("http://comicfury.com/images/layouts/cold/shadow.gif") no-repeat bottom right;*/
   margin: 10px 0 0 10px !important;
   margin: 10px 0 0 5px;
   width: 150px;
   }
 
 .p-shadow div {
-  background: none !important;
-  background: url("http://comicfury.com/images/layouts/cold/shadow2.gif") no-repeat left top;
+  /*background: none !important;
+  background: url("http://comicfury.com/images/layouts/cold/shadow2.gif") no-repeat left top;*/
   padding: 0 !important;
   padding: 0 6px 6px 0;
   }
 
 .p-shadow p {
-  color: #777;
-  background-color: #fff;
+  color: white;
+  /*background-color: #fff;*/
   font: italic 0.9em century gothic, sans-serif;
-  border: 1px solid #a9a9a9;
+  /*border: 1px solid #a9a9a9;*/
   padding: 4px;
   margin: -6px 6px 6px -6px !important;
   margin: 0;
