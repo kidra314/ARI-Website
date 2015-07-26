@@ -39,13 +39,14 @@ height: 150px;
 
 /***This affects the text like "Save My Place", names on the comment info boxes**********/
 a {
-color: #00CCFF;;
+color: #00CCFF;
 text-decoration: none;
 
 }
 
 a:hover {
-color: #000000;
+/*color: #0099EE;*/
+color: #aaddFF;
 }
 
 html>/**/body #wrap {
@@ -202,7 +203,7 @@ text-color: #FFFFFF;
 /****************This is for the Main Title, and perhaps other things****************/
 h1 {
 font-family: "Avengers", Arial Black, sans-serif;
-font-size: 4em;
+font-size: 6em;
 font-weight: normal;
 line-height: 110%;
 color: #00CCFF;
@@ -228,12 +229,16 @@ margin: 0px;
 padding: 0px;
 }
 
-/*This section is the bottom buttons*************************************************/
+/*This section is the navigation buttons*************************************************/
 .comicnav {
 list-stype-type: none;
-padding: 0px;
-margin: 10px;
-font-size: 2em;
+/*padding: 0px;
+margin: 10px;*/
+padding: auto;
+margin: auto;
+font-size: 3em;
+font-family: Avengers, Arial Black, sans-serif;
+text-align: center;
 /*background-color: #181818;*/
 }
 
@@ -245,6 +250,23 @@ margin-left: 10px;
 .comicnav li a {
 border: 10px;
 }
+/*These were how I did opacity stuff before but I don't think it matters*/
+/*************the opacities here used to be at 50 but I changed them************/
+/*.comicnav li a{
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+filter: alpha(opacity=50);
+-moz-opacity: 0.75;
+-khtml-opacity: 0.75;
+opacity: 0.75;
+}
+
+.comicnav li a:hover {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+filter: alpha(opacity=100);
+-moz-opacity: 1.0;
+-khtml-opacity: 1.0;
+opacity: 1.0;
+}*/
 /************************************************************************************/
 
 
@@ -341,22 +363,7 @@ border: 1px solid #a9a9a9;
 margin: -6px 6px 6px -6px;
 padding: 4px;
 }
-/*************the opacities here used to be at 50 but I changed them************/
-.comicnav li a{
--ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
-filter: alpha(opacity=50);
--moz-opacity: 0.75;
--khtml-opacity: 0.75;
-opacity: 0.75;
-}
 
-.comicnav li a:hover {
--ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-filter: alpha(opacity=100);
--moz-opacity: 1.0;
--khtml-opacity: 1.0;
-opacity: 1.0;
-}
 
 .p-shadow {
   float: right;
