@@ -43,9 +43,9 @@
    </style>
   <![endif]-->
 
-  <style type="text/css">
+  <!-- /*<style type="text/css">*/ -->
    <!--layout:[css]-->
-  /*</style>*/
+  <!-- /*</style>*/ -->
 
 <!--Grant needs to remove this when he uploads it, although it might just be easier to just link it to the file somewhere online-->
 <link rel="stylesheet" type="text/css" href="Style.css" />
@@ -53,7 +53,8 @@
   <script type="text/javascript" src="[v:cfscriptlink]"></script>
   <script type="text/javascript"> //This is the script to vote for the comic
    function vote(vote) {
-     window.open("[v:ratelink]&vote="+vote","vote","menubar=no,width=500,height=400,toolbar=no");
+     window.open("[v:ratelink]&vote=+vote","vote","menubar=no,width=500,height=400,toolbar=no");
+  // before there was a quotation before the +vote but I removed it to hopefully fix something
    }
   </script>
 
@@ -65,9 +66,12 @@
 <!--[if lte IE 7]>
  <table id="ietable" cellspacing="0" cellpadding="0"><tr><td id="iecontent">
 <![endif]-->
-
+<!-- Need make this div in the CSS rather than inline stuff -->
+<div style="width: 170px; height: 610px; border: 2px solid blue; Green; float: left; position: absolute; top: 402px; left: 250px;">
+</div>
 <div id="wrap">
 <!-- Seems to be where the bounding box for the comic starts-->
+
 <div id="wrap2">
 
 <div id="content">
@@ -89,35 +93,28 @@
 
 
 [c:isextrapage]
+
+
 <div class="noncomiccontent">
 <h1>[v:pagetitle]</h1>
 
 <br />
 <div id="navigation">
-<div style="width: 160px; height: 600px; background-color: Green;">
-</div>
+
 <!-------------------------------------------This block is the sidebar buttons. They have since been removed----------->
 <!--<ul id="nav">
      <li><a href="/comics/first"><img src= "http://avengersrollinitiative.webcomic.ws/files/directional/first_button.png" alt="first comic"/></a></li>
-
-
      <li><a href="/comics/"><img src="http://avengersrollinitiative.webcomic.ws/files/directional/last_button.png" alt="latest comic" /></a></li>
-
      /*<li><a href="/archive/"><img src="http://avengersrollinitiative.webcomic.ws/files/directional/archive_button.png" alt="archives" /></a></li>*/
-
      [c:searchon]
       <li><a href="/search/"><img src="http://avengersrollinitiative.webcomic.ws/files/directional/search_button.png" alt="archives" /></a></li>
-
      [/]
      [c:hasblogs]
       <li><a href="http://avengersrollinitiativetheblog.blogspot.com/"><img src="http://avengersrollinitiative.webcomic.ws/files/directional/blog_button.png" alt="blog" /></a></li>
      [/]
-
      [c:!hidefromhost]
       <li><a href="[v:addsubscriptionlink]"><img src="http://avengersrollinitiative.webcomic.ws/files/directional/favorite_button.png" alt="add comic to subscriptions" /></a></li>
      [/] -->
-
-
 <!------------------------------end of the sidebar buttons------------------------------->
 
 </ul>
@@ -142,7 +139,26 @@
 
 
 </div>
+<!--this section is sharing button code------------------------------------>
+<!--commenting out all of the text parts-->
+<div style="float: right; position: relative; top:-485px; left: -450px;">
+<ul style="list-style-type: none; line-height 500px;">
+<li class='st_facebook_large' <!--displayText='Facebook'></li>
+<li class='st_twitter_large' <!--displayText='Tweet'></li>
+<li class='st_pinterest_large' <!--displayText='Pinterest'></li>
+<li class='st_email_large' <!--displayText='Email'></li>
+<li class='st_googleplus_large' <!--displayText='Google +'></li>
+<li class='st_sharethis_large' <!--displayText='ShareThis'></li>
+</ul>
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "160960dd-b0fd-441c-9a49-c3e24e5544f2", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
+<!---This is specifically the "follow on Twitter" button"------>
+<!-- <a href="https://twitter.com/CriticalLaugh" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @CriticalLaugh</a> -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<!--------end of the social buttons-------------------------------------->
+</div>
 			<!--[if lte IE 7]>
 				</td></tr></table>
 			<![endif]-->

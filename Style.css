@@ -378,7 +378,7 @@ padding: 4px;
   /*float: right;
   background: url("http://comicfury.com/images/layouts/cold/shadowAlpha.png") no-repeat bottom right !important;
   background: url("http://comicfury.com/images/layouts/cold/shadow.gif") no-repeat bottom right;*/
-  margin: 10px 0 0 10px !important;
+  margin: 10px 0 10px 10px !important;
   margin: 0px 0 0 5px;
   width: 150px;
   }
