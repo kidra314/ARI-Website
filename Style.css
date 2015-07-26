@@ -282,13 +282,12 @@ margin: 20px;
 padding: 5px;
 color: white;
 /*Grant Baugh check here to change what the comments will look like*****************/
-/*background: #33CCFF; /*url("http://comicfury.com/images/layouts/cold/bg-comments.gif") bottom repeat-x;*/*/
+/*background: #33CCFF; /*url("http://comicfury.com/images/layouts/cold/bg-comments.gif") bottom repeat-x;*/
 /*box-shadow: 5px 5px 5px #3399FF;/*this is the box's shadow*/
 /******border-right: 5px #3399FF solid;****removed this to just have the shadow*/
 /******border-bottom: 5px #3399FF solid;****removed this to just have the shadow*/
 min-height: 220px;
 height: auto !important;
-height: 220px;
 }
 
 .commentsw {
@@ -332,9 +331,13 @@ padding: 5px;
 h3, .blogtitle {
 font: 1.0em century gothic, georgia, sans-serif;
 font-weight: normal;
+float: right;
 text-align: right;
 line-height: normal;
 padding: 2px;
+max-width: 75%;
+width: auto;
+/*background-color: yellow;*/
 /*******border-bottom: 5px #eeeeee solid;***removed on feb 25 2014*********/
 }
 
@@ -376,7 +379,7 @@ padding: 4px;
   background: url("http://comicfury.com/images/layouts/cold/shadowAlpha.png") no-repeat bottom right !important;
   background: url("http://comicfury.com/images/layouts/cold/shadow.gif") no-repeat bottom right;*/
   margin: 10px 0 0 10px !important;
-  margin: 10px 0 0 5px;
+  margin: 0px 0 0 5px;
   width: 150px;
   }
 
