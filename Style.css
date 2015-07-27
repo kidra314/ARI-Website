@@ -1,9 +1,6 @@
 body {
 font-size: 66.5%;
-background: #181818;
-
-/* I commented this out to just have a black background, rather than an image url("http://avengersrollinitiative.webcomic.ws/files/backgrounds/shield.jpg") ; top repeat-x */
-
+background: #101010;
 text-align: center;
 margin-top: 50px;
 word-wrap:break-word;
@@ -21,6 +18,7 @@ src: url(files/avengeance_heroic_avenger.ttf);
 img {
  border: 0;
 }
+
 .comicimage {
  min-height:1px;
  display:inline-block;
@@ -511,4 +509,15 @@ color: #0033FF;  <!--GrantFix-->
 .blogcontent {
  margin-top:10px;
  margin-bottom:10px;
+}
+
+
+#ProjWonAd{
+  width: 170px;
+  height: 610px;
+  border: 2px solid blue;
+  float: left;
+  position: absolute;
+  top: 402px;
+  left: 250px;
 }
