@@ -63,14 +63,12 @@ margin:0;
 
 
 html>/**/body #content {
-display:table-cell;
+display: block;
 vertical-align:top;
 margin: auto;
-
 /******this is the background within the borders around the comic********/
-background: #181818;
+background: #101010;
 /*url("http://comicfury.com/images/layouts/cold/bg-content.gif)*/
-
 top repeat-x;
 /*Used to have a border but we got rid of it in the July 2015 redesign*/
 /*border-style: solid;
@@ -513,11 +511,11 @@ color: #0033FF;  <!--GrantFix-->
 
 
 #ProjWonAd{
+  position: relative;
   width: 170px;
   height: 610px;
   border: 2px solid blue;
   float: left;
-  position: absolute;
-  top: 402px;
-  left: 250px;
+  top: 10em;
+  left: 10em;
 }
